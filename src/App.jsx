@@ -8,7 +8,7 @@ function App() {
   
 
 useEffect(() => {
-fetch('https://pokeapi.co/api/v2/pokemon?limit=807')
+fetch('https://pokeapi.co/api/v2/pokemon?&limit=807')
   .then((res) => {
     console.log(res);
     return res.json();
